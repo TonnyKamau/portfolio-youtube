@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
@@ -11,9 +12,7 @@ const Home: NextPage = () => {
         {/* will add the favicon */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-3xl text-center font-bold my-4 font-mono tracking-tighter capitalize">
-      hello trying tailwind and Next.js today
-    </h1>
+      <Header />
     </div>
   )
 }
